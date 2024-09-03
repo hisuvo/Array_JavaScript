@@ -49,3 +49,7 @@
 // 3. Print both the original arrays and the combined array using console.log().
 
 // -------------------------------------------------------------------
+
+git branch -M main
+git remote add origin https://github.com/hisuvo/Array_JavaScript.git
+git push -u origin main
