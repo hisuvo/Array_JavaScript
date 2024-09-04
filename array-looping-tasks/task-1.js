@@ -9,6 +9,8 @@ console.log(colors)
 let reverseColor1 = [...colors].reverse();
 console.log(reverseColor1)
 
+// Note: colors ka sprade operator use na korla main array ka change kora fali
+
 
 //2nd way: (using for__of loop)
 let reverseColor2 = [];
