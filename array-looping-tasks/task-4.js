@@ -36,6 +36,8 @@ console.log(n)
 
 
 
-
+const str = "I am a JavaScript learner";
+const newArray = Array.from(str)
+console.log(newArray)
 
 

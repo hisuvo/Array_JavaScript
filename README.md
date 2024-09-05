@@ -51,7 +51,7 @@ here are some common method:
         const newArray = originalArray.filter(x => x % 2 === 0)
         console.log(newArray)
 
-6.  using form() method
+6.  using from() method
 
         let originalArray = ["tim", "tom", "tik"];
         let newArray = Array.from(originalArray);  // Creates a copy
@@ -67,3 +67,35 @@ here are some common method:
         }
 
         console.log(newArray);  // ["tim", "tom", "tik"]
+
+### string to array convert in javascript
+
+1.  Using split():
+
+        const str = "I am a JavaScript learner";
+        const newArray = str.split(" ") // Splits by space
+        const newArray = str.split("") // Splits into each character
+        const newArray = str.split("a") // Splits by a
+
+2.  Using Array.from()
+
+        let str = "timtomtik";
+        let arr = Array.from(str);
+        console.log(arr);
+
+3.  Using the Spread Operator (...)
+
+        let str = "timtomtik";
+        let arr = [...str];
+        console.log(arr);
+
+4.  Using a Loop
+
+        let str = "timtomtik";
+        let arr = [];
+
+        for (let i = 0; i < str.length; i++) {
+        arr.push(str[i]);
+        }
+
+        console.log(arr);
