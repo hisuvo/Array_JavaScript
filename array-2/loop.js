@@ -21,8 +21,6 @@ for (let i = 0; i < massMate.length; i++){
 
 
 
-
-
 // reverse loop
 let x = [];
 for (let i = massMate.length - 1; i >= 0; i--){

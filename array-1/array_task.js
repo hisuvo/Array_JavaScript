@@ -51,5 +51,5 @@
 // -------------------------------------------------------------------
 
 git branch -M main
-git remote add origin https://github.com/hisuvo/Array_JavaScript.git
+git remote add origin https://github.com/hiresult/Array_JavaScript.git
 git push -u origin main
