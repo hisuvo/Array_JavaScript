@@ -7,7 +7,7 @@ let result = names.join("")
 console.log(result)
 
 //Array toString() method
-let result_s = names.toString().replace(/,/g, "-");
+let result_s = names.toString().replace(/,/g, "");
 console.log(result_s)
 
 //1st way:
